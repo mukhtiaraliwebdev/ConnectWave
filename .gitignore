@@ -65,5 +65,5 @@ out/
 .vercel
 
 # Local media uploads
-public/post_contents/
-public/avatars/
+# public/post_contents/
+# public/avatars/

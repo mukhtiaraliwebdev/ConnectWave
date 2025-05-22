@@ -1,0 +1,69 @@
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Local SvelteKit store
+.svelte-kit
+
+# Built SvelteKit output
+build
+
+# SvelteKit files (those that aren't part of the template)
+.env
+.env.*.local
+.env.local
+!/.env.example
+
+# Test Results
+/coverage
+/test-results
+
+# Typescript cache
+*.tsbuildinfo
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.vscode
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# Editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+# Output of 'npm pack'
+*.tgz
+# Yarn Integrity file
+.yarnclean
+# Build results
+.firebase
+firebase-debug.log
+# Next.js
+.next/
+out/
+# Deployment server-specific files
+.vercel
+
+# Local media uploads
+public/post_contents/
+public/avatars/

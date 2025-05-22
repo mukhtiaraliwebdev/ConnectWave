@@ -16,6 +16,7 @@ import { db } from "@/lib/firebase";
 import { doc, getDoc, updateDoc, serverTimestamp, collection, query, where, getDocs } from "firebase/firestore";
 import type { User } from "@/types";
 import { useRouter } from 'next/navigation';
+import { useCallback } from 'react';
 
 async function isUsernameTakenByOther(username: string, currentUserId: string): Promise<boolean> {
   if (!username) return false;
